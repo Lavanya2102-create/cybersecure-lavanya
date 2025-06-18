@@ -1028,3 +1028,42 @@ footer .socials a:hover {
   }
 }
 
+/* ✅ Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .intro-image {
+    width: 60vw;
+  }
+
+  .typing-text {
+    font-size: 1.2rem;
+    border-right: 2px solid white;
+  }
+
+  .tagline-text {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .news-ticker h2 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .ticker-list li {
+    font-size: 0.9rem;
+  }
+
+  .share-buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .share-buttons a,
+  .share-buttons button {
+    width: 100%;
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+}
+
